@@ -1,0 +1,59 @@
+nav{
+    background-color:#000000;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;    
+    
+}
+#pNav{
+    color: white;
+    font-size: large;
+    text-align: left;
+    
+    font-family: monospace, 'Courier New', Courier, monospace;
+    font-variant-caps: normal;
+}
+#logo{
+    float: left;
+    height: 60px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: monospace, 'Courier New', Courier, monospace;
+  margin-top: 15px;
+}
+.button2 {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace, 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    float: right;
+  }
+#social{
+    float: right;
+    margin-top: 30px;
+    color: white;
+    font-family: monospace, 'Courier New', Courier, monospace;
+}
+li{
+    float: right;
+}
