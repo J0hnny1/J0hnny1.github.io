@@ -57,3 +57,10 @@ nav{
 li{
     float: right;
 }
+article{
+    background-color: black;
+}
+p{
+    color: white;
+    font-family: monospace, 'Courier New', Courier, monospace;
+}
