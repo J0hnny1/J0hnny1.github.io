@@ -2,7 +2,6 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Energy</title>
     <link rel="icon" href="Bilder/TabIcon.ico">
@@ -25,11 +24,38 @@
 
     </nav>
     
-    <section>
-
-        <p>Ein Monster Energy Drink ist ein Energy-drink des US-amikeranischen Unternehmens Monster Baverage</p>
-
-    </section>
     
+    <article>
+
+        <p id="main">Monster Energy Drink ist ein Energy-drink des US-amerikanischen Unternehmens Monster Beverage</p>
+
+    </article>
+    <aside>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+    </aside>
+
+    <footer>
+        <p>&copy; Jonathan Zimmer 2021</p>
+    </footer>
 </body>
 </html>
