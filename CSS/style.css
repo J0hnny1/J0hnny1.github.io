@@ -45,6 +45,7 @@ nav{
   .button2:hover{
     color: #7eb646;
   }
+  
 #social{
     float: right;
     margin-top: 30px;
@@ -54,22 +55,15 @@ nav{
 li{
     float: right;
 }
-@keyframes slideshow{
-    0% { background-image: "Bilder/DduV_TDVwAAT6Sx.jpg"; }
-    10% { background-image: "Bilder/DduV_TDVwAAT6Sx.jpg"; }
-    20% { background-image: "Bilder/DduV_TDVwAAT6Sx.jpg"; }
-}
+
 article{
     position: fixed;
     top: 9%;
-    left: 0;
+    left: 0%;
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: rgb(51, 50, 50);
-    animation-name: slideshow;
-    animation-duration: 4s;
-
 }
 #main{
     color: white;
@@ -136,11 +130,6 @@ img {vertical-align: middle;}
   width: 100%;
   text-align: center;
 }
-
-
-
-
-
 .active {
   background-color: #717171;
 }
@@ -148,9 +137,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 0;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0s;
 }
 
 @-webkit-keyframes fade {
@@ -168,5 +157,5 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 img{
-    margin-top: 50%;
+    margin-top: 30%;
 }

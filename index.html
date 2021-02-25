@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Energy</title>
     <link rel="icon" href="Bilder/TabIcon.ico">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
     <nav>
@@ -27,30 +27,48 @@
     
     <article>
 
-        <p id="main">Monster Energy Drink ist ein Energy-drink des US-amerikanischen Unternehmens Monster Beverage</p>
-
+        <p id="main">Monster Energy Drink ist ein Energy-drink <br> des US-amerikanischen Unternehmens Monster Beverage</p>
+        
+        
     </article>
+
     <aside>
-        <script>
-            var slideIndex = 0;
-            showSlides();
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="Bilder/DduV_TDVwAAT6Sx (another copy).jpg" style="width: 700px;height: 500px;">
+            </div>
+            <div class="mySlides fade">
+              <img src="Bilder/monster-energy-drink-hd-wallpaper (copy).jpg" style="width: 700px;height: 500px;"> 
+            </div>
+            <div class="mySlides fade">
+              <img src="Bilder/Desktop-Monster-Energy-HD-Wallpaper-Free-Download (another copy).jpg" style="width: 700px;height: 500px;">
+            </div>
+            </div>
             
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 2000); // Change image every 2 seconds
-            }
+            
+           
+           
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  
+                  setTimeout(showSlides, 3000); // Change image every 2 seconds
+                }
             </script>
     </aside>
 
