@@ -1,7 +1,7 @@
 nav{
     background-color:#000000;
     position: fixed;
-    height: 9%;
+    height: 5em;
     width: 100%;
     top: 0;
     left: 0;
@@ -55,23 +55,41 @@ nav{
 li{
     float: right;
 }
-
+@keyframes slideshow{
+  0% {background-image: url("../Bilder/1.jpg");}
+  30% {background-image: url("../Bilder/2.jpg");}
+  33% {background-image: url("../Bilder/2.jpg");}
+  63% {background-image: url("../Bilder/2.jpg");}
+  66% {background-image: url("../Bilder/3.jpg");}
+  100% {background-image: url("../Bilder/1.jpg");}
+}
 article{
     position: fixed;
-    top: 9%;
+    top: 5em;
     left: 0%;
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: rgb(51, 50, 50);
+    background-image: url("../Bilder/1.jpg");
+    animation-name: slideshow;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+article::before{
+  background-color: #7eb646;
 }
 #main{
     color: white;
     text-align: center;
-    font-family: monospace, 'Courier New', Courier, monospace;
+    font-family: monospace, 'Courier New', Courier;
     position: fixed;
     top: 50%;
-    left: 30%;
+    margin: auto;
+    width: 100%;
 }
 p{
     color: white;
@@ -82,7 +100,7 @@ footer p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(51, 50, 50);
+    /*background-color: rgb(51, 50, 50);*/
     color: black;
     text-align: center;
     font-family: monospace, 'Courier New', Courier, monospace;
@@ -132,30 +150,4 @@ img {vertical-align: middle;}
 }
 .active {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0;
-  animation-name: fade;
-  animation-duration: 0s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-img{
-    margin-top: 30%;
 }
