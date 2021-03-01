@@ -71,9 +71,10 @@ li{
     text-align: center;
     background-color: rgb(51, 50, 50);
     background-image: url("../Bilder/1.jpg");
-    background-size: center;
+    background-size: stretch;
     background-repeat: repeat;
-    filter: blur(4%);
+    filter: blur(20%);
+    filter:brightness(0.85);
     
     /*animation-name: slideshow;
     animation-duration: 15s;
@@ -176,6 +177,13 @@ a:hover{
 }
 
 #impressum{
+  width: 100%;
+  position: absolute;
+  top: 5em;
+  left: 0%;
+  width: 100%;
+  height: 900em;
+  text-align: center;
   background-color: rgb(51, 50, 50);
 }
 /*body{
