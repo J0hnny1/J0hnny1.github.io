@@ -9,7 +9,7 @@ nav{
 #logo{
     float: left;
     height: 60px;
-    width: 200px;
+    width: 400px;
     margin-right: 20px;
     margin-top: 10px;
 }
@@ -55,14 +55,13 @@ nav{
 li{
     float: right;
 }
-@keyframes slideshow{
+/*@keyframes slideshow{
   0% {background-image: url("../Bilder/1.jpg");}
-  30% {background-image: url("../Bilder/2.jpg");}
-  33% {background-image: url("../Bilder/2.jpg");}
-  63% {background-image: url("../Bilder/2.jpg");}
-  66% {background-image: url("../Bilder/3.jpg");}
+  30% {background-image: url("../Bilder/2.jpeg");}
+  33% {background-image: url("../Bilder/2.jpeg");}
+  63% {background-image: url("../Bilder/2.jpeg");}
   100% {background-image: url("../Bilder/1.jpg");}
-}
+}*/
 article{
     position: fixed;
     top: 5em;
@@ -73,10 +72,10 @@ article{
     background-color: rgb(51, 50, 50);
     background-image: url("../Bilder/1.jpg");
     animation-name: slideshow;
-    animation-duration: 15s;
+    /*animation-duration: 15s;
     animation-iteration-count:infinite;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     
 }
 article::before{
