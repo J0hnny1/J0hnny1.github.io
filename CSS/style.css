@@ -1,5 +1,5 @@
 nav{
-    background-color:#000000;
+    background-color:rgb(51,50,50);
     position: fixed;
     height: 5em;
     width: 100%;
@@ -14,7 +14,7 @@ nav{
     margin-top: 10px;
 }
 .button {
-    background-color: #000000; /* Green */
+    background-color: rgb(51,50,50); /* Green */
     border: none;
     color: white;
     padding: 15px 14px;
@@ -27,7 +27,7 @@ nav{
     transition-duration: 0.1s;
 }
 .button2 {
-    background-color: #000000; /* Green */
+    background-color: rgb(51,50,50); /* Green */
     border: none;
     color: white;
     padding: 15px 14px;
@@ -40,10 +40,10 @@ nav{
     float: right;
   }
   .button:hover{
-    color: #7eb646;
+    color: #f78f2d;
   }
   .button2:hover{
-    color: #7eb646;
+    color: #f78f2d;
   }
   
 #social{
@@ -62,7 +62,7 @@ li{
   63% {background-image: url("../Bilder/2.jpeg");}
   100% {background-image: url("../Bilder/1.jpg");}
 }*/
-article{
+.main{
     position: fixed;
     top: 5em;
     left: 0%;
@@ -71,16 +71,18 @@ article{
     text-align: center;
     background-color: rgb(51, 50, 50);
     background-image: url("../Bilder/1.jpg");
-    animation-name: slideshow;
-    /*animation-duration: 15s;
+    background-size: center;
+    background-repeat: repeat;
+    filter: blur(4%);
+    
+    /*animation-name: slideshow;
+    animation-duration: 15s;
     animation-iteration-count:infinite;
     background-size: cover;
     background-repeat: no-repeat;*/
     
 }
-article::before{
-  background-color: #7eb646;
-}
+
 #main{
     color: white;
     text-align: center;
@@ -100,7 +102,7 @@ footer p{
     bottom: 0;
     width: 100%;
     /*background-color: rgb(51, 50, 50);*/
-    color: black;
+    color: white;
     text-align: center;
     font-family: monospace, 'Courier New', Courier, monospace;
 }
@@ -150,3 +152,32 @@ img {vertical-align: middle;}
 .active {
   background-color: #717171;
 }
+#imp{
+  border: none;
+    color: white;
+    padding: 15px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace, 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    
+}
+imp:hover{
+  color: #f78f2d;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #f78f2d;
+}
+
+#impressum{
+  background-color: rgb(51, 50, 50);
+}
+/*body{
+  background-image: url("../Bilder/1.jpg");
+}*/
