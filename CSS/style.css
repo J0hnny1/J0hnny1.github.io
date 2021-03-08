@@ -112,6 +112,9 @@ a{
   color: white;
   text-decoration: none;
 }
+#link{
+  color: white;
+}
 a:hover{
   color: #f78f2d;
 }
@@ -139,7 +142,7 @@ table {
   border: 1px solid black;
   text-align: center;
   position: fixed;
-  top: 28%;
+  top: 29%;
   right: 0;
   color: white;
   border-collapse: collapse;
@@ -159,15 +162,20 @@ table {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  
 }
 
 #video{
   grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
-    grid-row-end: 4;
-        
+    grid-row-end: 4;  
 }
+#textEntwickler{
 
+}
+.grid-containerEntwickler{
+  display: grid;
+  grid-template-columns: 1fr 0,5fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.1fr 0.5fr;
+}
 
