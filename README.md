@@ -1,3 +1,3 @@
 # Unofficial Factorio Website
-School Project Website about Factorio.
-The task is to make make a simple Website with HTML and css. This Github page is to make it available to the teacher and others.
+School Project, with the task to create a Website about a random topic, I like Factorio so I chose it as Topic.
+
