@@ -2,7 +2,7 @@ body{
   height: 100%;
   text-align: center;
   background-color: rgb(34, 34, 34);
-  background-image: url("../Bilder/1E5.jpg");
+  background-image: url("../Bilder/1E5.2.jpg");
   background-size: stretch;
   background-repeat:repeat;
   font-family: 'Noto Sans JP', sans-serif;
@@ -24,7 +24,7 @@ nav{
   margin-top: 10px;
   margin-left: 40px;
 }
-#button {
+#button, #button2, #button3 {
   background-color: rgb(51,50,50);
   border: none;
   color: white;
@@ -32,39 +32,23 @@ nav{
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  float: left;
   margin-top: 15px;
-    transition-duration: 0.1s;
+  transition-duration: 0.1s;
 }
-#button2 {
-  background-color: rgb(51,50,50);
-  border: none;
-  color: white;
-  padding: 15px 14px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 15px;
+#button2, #button3 {
   float: right;
   }
+#button{
+  float: left;
+}  
 #button3{
-  background-color: rgb(51,50,50);
-  border: none;
-  color: white;
-  padding: 15px 14px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
   margin-top: 15px;
   margin-right: 40px;
-  float: right;
 }
-  #button:hover{
+  #button:hover, #button2:hover, #button3:hover{
     color: #f78f2d;
   }
-  #button2:hover{
-  color: #f78f2d;
-}
+  
 #social{
   float: right;
   margin-top: 30px;
