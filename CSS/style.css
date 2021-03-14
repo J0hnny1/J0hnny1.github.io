@@ -3,8 +3,9 @@ body{
   text-align: center;
   background-color: rgb(34, 34, 34);
   background-image: url("../Bilder/1E5.2.jpg");
-  background-size: stretch;
-  background-repeat:repeat;
+  /* background-size: stretch; */
+  background-size: cover;
+  
   font-family: 'Noto Sans JP', sans-serif;
   font-size:medium;    
 }
@@ -45,14 +46,14 @@ nav{
   margin-top: 15px;
   margin-right: 40px;
 }
-  #button:hover, #button2:hover, #button3:hover{
+#button:hover, #button2:hover, #button3:hover{
     color: #f78f2d;
   }
   
 #social{
   float: right;
   margin-top: 30px;
-  color: white;  
+  color: white;
 }
 p{
   color: white;
@@ -60,7 +61,7 @@ p{
   line-height: 130%;
   font-size: medium;
 }
-footer p{
+#FooterStyle{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -117,7 +118,13 @@ ul li{
   text-align: center;
   list-style: none;
 }
-
+#GründerImage{
+  width: 14em;
+  height: 19em;
+}
+h3{
+  color: white;
+}
 /* Grid*/
 
 .grid-containerIndex{
@@ -128,7 +135,7 @@ ul li{
 .grid-containerUnterseiten{
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
-  grid-template-rows: 68px 132px 132px 132px;
+  grid-template-rows: 68px 132px 132px 132px 85px 132px 132px 132px 132px 132px 132px 132px 132px 132px 60px;
 }
 .grid-containerImpressum{
   display: grid;
@@ -160,8 +167,8 @@ ul li{
   grid-row-end: 4; 
 }
 #Impressum{
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3; 
 }
@@ -171,4 +178,60 @@ ul li{
   grid-row-start: 3;
   grid-row-end: 4; 
 }
-
+#zusatzImpreesum{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3; 
+}
+#MichalImage{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+#MichaelText{
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+#TomasImage{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+#TomasText{
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+#AlbertImage{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+#AlbertText{
+  margin-top: 40px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+#FooterGrid{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 14;
+  grid-row-end: 15;
+}
+#Founders{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
