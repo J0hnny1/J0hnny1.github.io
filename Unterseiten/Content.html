@@ -14,13 +14,13 @@
 
         <a href="../index.html"> <img id="logo" src="../Bilder/FactorioLogo.png" alt="Factorio Logo"></a>
 
-        <button id="button" onclick="window.location.href='Entwicklung.html';">Entwicklung </button>
-        <button id="button" onclick="window.location.href='Content.html';">Content </button>
+        <button class="button" onclick="window.location.href='Entwicklung.html';">Entwicklung </button>
+        <button class="button" onclick="window.location.href='Content.html';">Content </button>
 
-        <button id="button3" onclick="window.location.href='https://www.factorio.com/';">Website </button>
-        <button id="button2" onclick="window.location.href='https://wiki.factorio.com/';">Wiki </button>
-        <button id="button2" onclick="window.location.href='https://twitter.com/factoriogame';">Twitter </button>
-        <button id="button2" onclick="window.location.href='https://www.reddit.com/r/factorio/';">Reddit </button>
+        <a id="externWebsite" href="https://factorio.com">Website</a>
+        <a class="externerLink" href="https://wiki.factorio.com/">Wiki</a>
+        <a class="externerLink" href="https://twitter.com/factoriogame">Twitter</a>
+        <a class="externerLink" href="https://www.reddit.com/r/factorio">Reddit</a>
 
     </nav>
     <article>
@@ -29,45 +29,54 @@
                 <p>
                     Factorio ist ein Spiel, in dem Sie Fabriken bauen und instand halten.
                     Sie werden Ressourcen abbauen, Technologien erforschen, Infrastruktur
-                    aufbauen, die Produktion automatisieren und Feinde bekämpfen. Nutzen 
-                    Sie Ihre Fantasie, um Ihre Fabrik zu entwerfen, kombinieren Sie einfache 
-                    Elemente zu genialen Strukturen, wenden Sie Management-Fähigkeiten 
+                    aufbauen, die Produktion automatisieren und Feinde bekämpfen. Nutzen
+                    Sie Ihre Fantasie, um Ihre Fabrik zu entwerfen, kombinieren Sie einfache
+                    Elemente zu genialen Strukturen, wenden Sie Management-Fähigkeiten
                     an, um sie am Laufen zu halten, und schützen Sie sie vor den Kreaturen,
                     die Sie nicht wirklich mögen.
                 </p>
                 <br><br><br>
                 <h1>Game Modes</h1>
-                <h3>Singleplayer</h3> <p>Im freien Einzelspieler-Modus gibt es eine
-                     einziges Ziel, auf das man hinarbeiten muss.
-                      Die Aufgabe ist einfach, bauen Sie die Rakete Silo und starten 
-                      Sie eine Rakete in den Weltraum. Sie werden Ihr Bestes geben müssen, 
-                      um dieses Ziel zu erreichen. Darüber hinaus ist jedes Spiel eine andere 
-                      Herausforderung aufgrund unserer prozeduralen Kartengenerierung.</p>
-                <h3>Multiplayer</h3> <p>Bauen Sie die Fabrik mit Ihren Kumpels, oder besuchen
-                     Sie einfach ein Spiel Ihrer Freunde und lassen Sie sich von ihnen herumführen.
-                      Das Multiplayer-System im Spiel wurde im Laufe der Entwicklung verfeinert und 
-                      poliert und ist sehr stabil und zuverlässig, sowohl für private Spiele als auch 
-                      für große öffentliche Server.</p>
-                <h3>Map Editor</h3> <p>Das Spiel hat einen eingebauten Karteneditor.
-                     Mit ihm haben wir alle Kampagnen- und Szenariokarten erstellt. Er ist dazu da,
-                      neue Inhalte für das Spiel zu erstellen. Sie können auch ein Lua-Skript an die
-                       Karte anhängen und ein benutzerdefiniertes Szenario mit einem bestimmten Regelwerk erstellen.</p>
+                <h3>Singleplayer</h3>
+                <p>Im freien Einzelspieler-Modus gibt es eine
+                    einziges Ziel, auf das man hinarbeiten muss.
+                    Die Aufgabe ist einfach, bauen Sie die Rakete Silo und starten
+                    Sie eine Rakete in den Weltraum. Sie werden Ihr Bestes geben müssen,
+                    um dieses Ziel zu erreichen. Darüber hinaus ist jedes Spiel eine andere
+                    Herausforderung aufgrund der prozeduralen Kartengenerierung.</p>
+                <h3>Multiplayer</h3>
+                <p>Bauen Sie die Fabrik mit Ihren Kumpels, oder besuchen
+                    Sie einfach ein Spiel Ihrer Freunde und lassen Sie sich von ihnen herumführen.
+                    Das Multiplayer-System im Spiel ist sehr stabil und zuverlässig, sowohl für private Spiele als auch
+                    für große öffentliche Server.</p>
+                <h3>Map Editor</h3>
+                <p>Das Spiel hat einen eingebauten Karteneditor.
+                    Mit ihm wurden alle Kampagnen- und Szenariokarten erstellt. Er ist dazu da,
+                    neue Inhalte für das Spiel zu erstellen. Sie können auch ein Lua-Skript an die
+                    Karte anhängen und ein benutzerdefiniertes Szenario mit einem bestimmten Regelwerk erstellen.</p>
                 <br><br><br>
                 <h1>Scenarios</h1>
-                <h3>Freeplay</h3> <p>Ihre Aufgabe ist es, eine Rakete in den Weltraum zu starten. Sie müssen
-                     fortschrittliche Technologien erforschen, um das Raketensilo freizuschalten. Fangen Sie klein an,
-                      arbeiten Sie sich mit Automatisierung hoch und vergessen Sie nicht, sich vor den Eingeborenen zu schützen.</p>
+                <h3>Freeplay</h3>
+                <p>Ihre Aufgabe ist es, eine Rakete in den Weltraum zu starten. Sie müssen
+                    fortschrittliche Technologien erforschen, um das Raketensilo freizuschalten. Fangen Sie klein an,
+                    arbeiten Sie sich mit Automatisierung hoch und vergessen Sie nicht, sich vor den Eingeborenen zu
+                    schützen.</p>
 
-                <h3>Tutorial</h3> <p>Nach der Bruchlandung auf der fremden Welt müssen Sie die Gegend erkunden, die 
+                <h3>Tutorial</h3>
+                <p>Nach der Bruchlandung auf der fremden Welt müssen Sie die Gegend erkunden, die
                     lokalen Ressourcen ernten und die Produktion der Gegenstände, die Sie zum Überleben benötigen,
-                     automatisieren. Eine Reihe von fünf Ebenen für neue Spieler.</p>
-                <h3>Sandbox</h3> <p>In diesem kreativen Modus können Sie mit dem Spiel experimentieren und bauen,
-                     wie Sie möchten. Sie bauen im Gott-Modus. Sie können alle Technologien erforschen lassen und 
-                     so viele Gegenstände spawnen, wie Sie wollen, indem Sie den Cheat-Modus verwenden.</p>
-                <h3>PvP</h3> <p>Richten Sie mehrere Teams mit separaten Startbereichen und Forschungsfortschritten
-                     ein. Hochgradig konfigurierbare Gameplay-Optionen, um die Bedingungen auf Ihre Bedürfnisse abzustimmen.
-                      Spielen Sie kooperativ oder gegeneinander, um eine der vielen angebotenen Siegbedingungen zu erfüllen.</p>
-               <!--  <p> Ziel des Spieles ist alle verfügbaren Technologien zu Erforschen und die Herstellung aller Produkte
+                    automatisieren. Eine Reihe von fünf Ebenen für neue Spieler.</p>
+                <h3>Sandbox</h3>
+                <p>In diesem kreativen Modus können Sie mit dem Spiel experimentieren und bauen,
+                    wie Sie möchten. Sie können alle Technologien erforschen lassen und
+                    so viele Gegenstände spawnen, wie Sie wollen, indem Sie den Cheat-Modus verwenden.</p>
+                <h3>PvP</h3>
+                <p>Richten Sie mehrere Teams mit separaten Startbereichen und Forschungsfortschritten
+                    ein. Hochgradig konfigurierbare Gameplay-Optionen, um die Bedingungen auf Ihre Bedürfnisse
+                    abzustimmen.
+                    Spielen Sie kooperativ oder gegeneinander, um eine der vielen angebotenen Siegbedingungen zu
+                    erfüllen.</p>
+                <!--  <p> Ziel des Spieles ist alle verfügbaren Technologien zu Erforschen und die Herstellung aller Produkte
                     zu automatisieren.
                     Um das Spiel abzuschließen lässt sich eine Rakete bauen um den Planeten zu verlassen.
 

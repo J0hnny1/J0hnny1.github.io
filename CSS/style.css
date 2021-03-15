@@ -3,9 +3,7 @@ body{
   text-align: center;
   background-color: rgb(34, 34, 34);
   background-image: url("../Bilder/1E5.2.jpg");
-  /* background-size: stretch; */
   background-size: cover;
-  
   font-family: 'Noto Sans JP', sans-serif;
   font-size:medium;    
 }
@@ -25,7 +23,7 @@ nav{
   margin-top: 10px;
   margin-left: 40px;
 }
-#button, #button2, #button3 {
+.button, #button2{
   background-color: rgb(51,50,50);
   border: none;
   color: white;
@@ -36,20 +34,25 @@ nav{
   margin-top: 15px;
   transition-duration: 0.1s;
 }
-#button2, #button3 {
+#button2{
   float: right;
-  }
-#button{
-  float: left;
-}  
-#button3{
-  margin-top: 15px;
-  margin-right: 40px;
 }
-#button:hover, #button2:hover, #button3:hover{
+.button{
+  float: left;
+}
+.button:hover, #button2:hover, #button3:hover{
     color: #f78f2d;
-  }
-  
+}
+.externerLink, #externWebsite{
+  text-decoration: none;
+  padding: 15px 14px;
+  font-size: 16px;
+  margin-top: 15px;
+  float: right;
+}
+#externWebsite{
+  margin-right: 40px;
+} 
 #social{
   float: right;
   margin-top: 30px;
@@ -111,14 +114,13 @@ th{
 ul li{
   color: white;
   text-align: left;
-    
 }
 #listTitle{
   color: white;
   text-align: center;
   list-style: none;
 }
-#GründerImage{
+.GründerImage{
   width: 14em;
   height: 19em;
 }
@@ -141,6 +143,9 @@ h3{
   display: grid;
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-template-rows: 100px 1fr;
+}
+.externerLink:hover{
+  color: #f78f2d;
 }
 #text{
   grid-column-start: 2;
@@ -166,23 +171,11 @@ h3{
   grid-row-start: 3;
   grid-row-end: 4; 
 }
-#Impressum{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3; 
-}
 #zusatz{
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 4; 
-}
-#zusatzImpreesum{
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3; 
 }
 #MichalImage{
   grid-column-start: 2;
